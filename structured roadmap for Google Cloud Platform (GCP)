@@ -1,0 +1,139 @@
+Here’s a structured roadmap for Google Cloud Platform (GCP) that takes you from fundamentals to advanced concepts, and finally projects where you can apply your learning.
+
+1. Fundamentals
+
+Cloud Basics
+
+What is cloud computing? IaaS, PaaS, SaaS
+
+GCP architecture (regions, zones, projects)
+
+Identity & Access Management (IAM)
+
+Core Services
+
+Compute: Compute Engine (VMs), App Engine (PaaS), Cloud Functions (serverless)
+
+Storage: Cloud Storage, Persistent Disks, Filestore
+
+Networking: VPC, subnets, firewalls, Cloud DNS, Load Balancing
+
+Databases: Cloud SQL, Firestore, Bigtable, Spanner
+
+Basic Tools
+
+Cloud Console
+
+Cloud SDK (gcloud CLI)
+
+Billing and cost management
+
+2. Intermediate
+
+Compute & Containerization
+
+Kubernetes Engine (GKE) basics
+
+Deploying containers with Cloud Run
+
+Data & Analytics
+
+BigQuery (data warehouse, SQL analytics)
+
+Dataflow (ETL/ELT pipelines)
+
+Pub/Sub (event-driven messaging)
+
+Storage & Caching
+
+Cloud Memorystore (Redis, Memcached)
+
+Data lifecycle management in Cloud Storage
+
+Networking Advanced
+
+Shared VPC, Interconnect, VPN
+
+Load balancing types (HTTP(S), TCP/UDP, SSL proxy)
+
+Security
+
+Service accounts & roles
+
+Key Management System (KMS)
+
+Cloud Armor (DDoS protection)
+
+3. Advanced
+
+DevOps & CI/CD
+
+Cloud Build
+
+Artifact Registry
+
+Continuous Deployment pipelines
+
+AI/ML
+
+Vertex AI for ML lifecycle
+
+AI APIs (Vision, Speech, NLP, Translation)
+
+Serverless & Event-driven Architectures
+
+Cloud Functions + Pub/Sub integration
+
+Eventarc
+
+Hybrid & Multi-cloud
+
+Anthos (multi-cloud Kubernetes)
+
+Hybrid connectivity with on-premise
+
+Cost Optimization & Monitoring
+
+Cloud Monitoring & Logging
+
+Budgets & Quotas
+
+FinOps strategies
+
+Compliance & Governance
+
+Resource hierarchy
+
+Organization policies
+
+Security Command Center
+
+4. Projects (Hands-On)
+
+Here are some projects from beginner to advanced:
+
+Beginner
+
+Deploy a static website on GCP using Cloud Storage + Cloud CDN.
+
+Set up a simple VM instance with a web server (Compute Engine).
+
+Build a serverless API using Cloud Functions + Firestore.
+
+Intermediate
+
+Deploy a containerized application on Cloud Run.
+
+Create a data pipeline: Ingest data with Pub/Sub → Transform with Dataflow → Store in BigQuery.
+
+Build a chat application using Firebase + GCP services.
+
+Advanced
+
+Implement CI/CD pipeline with Cloud Build + GKE.
+
+Real-time analytics dashboard: Streaming data with Pub/Sub → BigQuery → Looker Studio.
+
+Machine Learning: Train a custom ML model with Vertex AI and deploy an endpoint.
+
+Hybrid Cloud: Deploy a microservices app spanning GCP + On-prem using Anthos.
